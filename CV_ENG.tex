@@ -1,0 +1,107 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{cv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Riccardo Cal Novic}
+\address{\textbf{Address:} Via Emilia 111/H \linebreak Udine (UD), 33100 Italy \linebreak \textbf{Birth}: 1995-01-26}
+\contacts{(+39) 3345398737 \linebreak riccalnov@gmail.com \linebreak https://github.com/noplus}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{[2015] Part-time assistant}{Bros Consulenza s.r.l. (Milan)}{}
+			\begin{itemize}
+				\item \textbf{Data entry and analysis:} read and extrapolate key values from electrical bills of industrial companies to support financial counseling.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+		
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Politecnico di Milano}{}{}
+			\begin{itemize}
+				\item \textbf{Current enrollment: Master's in Computer Science Engineering}. Avg. mark: 27.47/30.
+				\item Coursework: Software Foundations; Advanced Algorithms; Artificial Intelligence; Principles of Programming Languages; Internet of Things; Signal Processing.
+				\item \textbf{2018: Bachelor's degree in Computer Science Engineering}. Final mark: 105/110.
+				\item Coursework: Operating Systems; Databases; Algorithms; Programming Languages; Fundamentals of Calculus, Physics and Electronics.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Lorenzo il Magnifico (Bachelor's degree project)} (2017). Cross platform implementation of the board game, with multi player capabilities.  Java (libgdx).
+				\item \textbf{HomeTuner} (2018). Web app used to play music when coming home, using a Raspberry Pi connected to a Reed switch and a speaker.  Python (Flask), Javascript, HTML, CSS.
+				\item \textbf{Licksterr} (WIP). Platform to analyze and enhance guitar tabs incorporating theoretical music concepts.  Python (Flask, SQLAlchemy), Rust, Javascript, HTML, CSS.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Academic Experience}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Erasmus (2017):} Exchange student experience at Tampere University of Technology (Tampere, Finland).
+				\item \textbf{Soft skill courses @ PoliMi:} Public Speaking, Body Language Reading, Efficient Communication.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{Languages}{}{}	
+			\begin{itemize}
+				\item \textbf{English:} 7.5 IELTS score.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Programming}{}{}	
+			\begin{itemize}
+				\item \textbf{Advanced level:} Python, Java, Rust.
+				\item \textbf{Basic / Intermediate level:} C/C++, Haskell, Scheme, Erlang, Scala, LaTeX, Bash, Javascript.
+			\end{itemize}
+		\end{cvsubsection}
+		\begin{cvsubsection}{Extra}{}{}	
+			\begin{itemize}
+				\item Good understanding of OS features in GNU/Linux and Windows. Usage of JetBrain's IDEs and Microsoft Office suite. Strong comprehension of best development practices (VCS, documentation, patterns).
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Interests and extra-curricular activities}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Music}: playing guitar is my main hobby, it gives me an opportunity to blend mathematical and theoretical concepts with feelings and emotions. The high skill ceiling gives me determination to study more. 
+				\item \textbf{Programming}: I like to spend part of my leisure time to improve and consolidate my programming knowledge, eploring new fields of research. From time to time I measure myself in programming challenges and puzzles.
+				\item \textbf{Other}: Finance, Sports, Psychology, Politics.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
